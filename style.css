@@ -1,0 +1,491 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+.cf {
+    *zoom: 1;
+}
+
+
+/* Start CSS */
+body {
+    background-color: #eaeaea;
+    color: #333333;
+    background-image: url(/img/pixel-heart.png);
+}
+
+.container {
+    background-color: wheat;
+    width: 960px;
+    height: 180px;
+    margin: 80px auto;
+    position: relative;
+}
+
+.header {
+    padding: 20px;
+    /* padding-bottom: 15px; */
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lobster two', sans-serif;
+
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.banner {
+    background-image: url(/img/jaw.jpg);
+    height: 500px;
+    margin: auto;
+    background-size: cover;
+    background-position: -50 -10px;
+    border-top: 5px solid sandybrown;
+    border-bottom: 5px solid sandybrown;
+}
+
+.content {
+    background-color: wheat;
+    /* background-image: url(/img/logo.png); */
+}
+
+.content .identitas {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    font-family: 'Urbanist', sans-serif;
+
+}
+
+.content .identitas h2 {
+    font-size: 80px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.content .identitas p {
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+/* .leader .identitas .founded {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 9999;
+} */
+
+/* .leader .identitas .founded {
+    /* font-family: 'Urbanist', sans-serif; 
+    font-weight: 9999;
+} */
+
+/* leader */
+.leader .anom {
+    background-image: url(/img/Anom\ Mudita\ _Keren.jpeg);
+    height: 240px;
+    width: 200px;
+    background-size: cover;
+    background-position: 0 -5px;
+    border-radius: 20px;
+    transition: 1s;
+    display: flex;
+    margin: 40px;
+    float: left;
+    box-sizing: border-box;
+
+}
+
+.content .leader .pembungkus {
+    float: left;
+    width: 100%;
+}
+
+.leader .anom:hover {
+    transform: scale(1.3);
+
+}
+
+/* deskripsi leader */
+.leader .desc1 p {
+    float: left;
+    width: 65%;
+    padding-top: 20px;
+    text-align: justify;
+    font-family: 'Lobster two', sans-serif;
+
+}
+
+.leader .desc1 h1 {
+
+    font-family: 'Lobster two', sans-serif;
+    padding-top: 20px;
+}
+
+.leader .desc1 .enter {
+    padding-top: 50px;
+}
+
+/* end deskripsi leader */
+
+.leader .pembungkus .list {
+    font-family: 'Lobster two', sans-serif;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+/* end leader */
+
+
+
+/* co-leader */
+
+.content .co-leader .pembungkus {
+    /* background-color: salmon; */
+    width: 100%;
+    float: left;
+}
+
+.co-leader .wahade {
+    background-image: url(/img/wahade_keren.jpeg);
+    width: 200px;
+    height: 240px;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 40px;
+    transition: 1s;
+    float: left;
+    box-sizing: border-box;
+}
+
+.co-leader .desc1 p {
+    padding-top: 100px;
+}
+
+.co-leader .wahade:hover {
+    transform: scale(1.3);
+}
+
+/* deskripsi co-leader */
+.co-leader .desc1 p {
+    float: left;
+    width: 65%;
+    padding-top: 20px;
+    text-align: justify;
+    font-family: 'Lobster two', sans-serif;
+
+}
+
+.co-leader .desc1 h1 {
+
+    font-family: 'Lobster two', sans-serif;
+    padding-top: 20px;
+}
+
+.co-leader .desc1 .enter {
+    padding-top: 50px;
+}
+
+.co-leader .pembungkus .list {
+    font-family: 'Lobster two', sans-serif;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+/* end deskripsi co-leader */
+
+/* end co-leader */
+
+
+/* secretary */
+
+.content .secretary .pembungkus {
+    /* background-color: seagreen; */
+    float: left;
+    width: 100%;
+}
+
+.secretary .james {
+    background-image: url(/img/james_keren.jpeg);
+    width: 200px;
+    height: 240px;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 40px;
+    transition: 1s;
+    float: left;
+}
+
+.secretary .james:hover {
+    transform: scale(1.3);
+}
+
+/* deskripsi secretary*/
+.secretary .desc1 p {
+    float: left;
+    width: 65%;
+    padding-top: 20px;
+    text-align: justify;
+    font-family: 'Lobster two', sans-serif;
+
+}
+
+.secretary .desc1 h1 {
+
+    font-family: 'Lobster two', sans-serif;
+    padding-top: 20px;
+}
+
+.secretary .desc1 .enter {
+    padding-top: 50px;
+}
+
+.secretary .pembungkus .list {
+    font-family: 'Lobster two', sans-serif;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+/* end deskripsi secretary */
+
+/* end secretary */
+
+
+
+/* about */
+
+.about .judul_about h1 {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lobster two', sans-serif;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: salmon;
+    width: 110px;
+}
+
+.about .deskripsi p {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lobster two', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+}
+
+.about .pembungkus2 {
+    padding: 20px;
+}
+
+.about .pembungkus1 {
+    padding-top: 20px;
+}
+
+/* end about */
+
+
+/* footer */
+.footer {
+    background-color: #333333;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footerloving {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.footer p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+.footer .loving img {
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+}
+
+/* End Footer */
