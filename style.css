@@ -168,7 +168,7 @@ table {
 body {
     background-color: #eaeaea;
     color: #333333;
-    background-image: url(/img/pixel-heart.png);
+    background-image: url(img/pixel-heart.png);
 }
 
 .container {
@@ -212,7 +212,7 @@ body {
 }
 
 .banner {
-    background-image: url(/img/jaw.jpg);
+    background-image: url(img/jaw.jpg);
     height: 500px;
     margin: auto;
     background-size: cover;
@@ -260,7 +260,7 @@ body {
 
 /* leader */
 .leader .anom {
-    background-image: url(/img/Anom\ Mudita\ _Keren.jpeg);
+    background-image: url(img/Anom\ Mudita\ _Keren.jpeg);
     height: 240px;
     width: 200px;
     background-size: cover;
@@ -325,7 +325,7 @@ body {
 }
 
 .co-leader .wahade {
-    background-image: url(/img/wahade_keren.jpeg);
+    background-image: url(img/wahade_keren.jpeg);
     width: 200px;
     height: 240px;
     background-size: cover;
@@ -384,7 +384,7 @@ body {
 }
 
 .secretary .james {
-    background-image: url(/img/james_keren.jpeg);
+    background-image: url(img/james_keren.jpeg);
     width: 200px;
     height: 240px;
     background-size: cover;
